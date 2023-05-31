@@ -15,6 +15,9 @@ public class Main {
 		System.out.println(per2.equals(per));
 		Persona pers3= new Persona("Diego",31,"Fernandez");
 		System.out.println(per2.equals(pers3));
+		System.out.println("Prueba de noatacion builder");
+		Empleado emp = Empleado.builder().nombre("Daniel").edad(21).build();
+		System.out.println(emp);
 		
 
 	}
