@@ -22,5 +22,9 @@ public class Empleado {
 	@Builder.Default
 	private String nomEmpresa="tqm";
 	private int edad;
+	private int leg;
+	@ToString.Exclude
+	@Builder.Default
+	private int sueldo=194000;
 
 }
